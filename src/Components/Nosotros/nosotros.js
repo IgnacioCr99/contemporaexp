@@ -1,4 +1,4 @@
-import {} from '../Nosotros/nosotros';
+import {} from '../Nosotros/nosotros.css';
 import data from "../Data/nosotrosdata";
 
 import React from 'react'

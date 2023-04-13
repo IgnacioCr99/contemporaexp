@@ -22,7 +22,9 @@ import Boton from './Components/boton/boton';
       <Hover/>
       <div >
       <h1>Confirming</h1>
+      </div>
       <Confirming/>
+      <div>
       <h1>Factoring</h1>
       <Factoring/>
       </div>
