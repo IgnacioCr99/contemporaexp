@@ -1,0 +1,19 @@
+.h1-titulo{
+
+        font-size: 48pt; 
+        color: #8fc33e;
+        position: absolute;
+}
+.img{
+        flex: end;
+        padding: 0;
+        flex-direction: column;
+
+}
+.container {
+        display: flex;
+        gap: 10px;
+        gap: 10px 20px; /* row-gap column gap */
+        row-gap: 10px;
+        column-gap: 20px;
+      }

@@ -1,0 +1,17 @@
+.h1-titulo{
+    font-size: 48pt; color: #8fc33e;
+}
+.h1{
+    text-align: center;
+    font-size: 18pt; 
+    color: #134d56;
+}
+.h2{
+    text-align: center;
+    font-size: 16pt; color: #cc4306;
+}
+.p{
+    font-size: 16pt;
+    text-align: center;
+    color: #5f6263;
+}
