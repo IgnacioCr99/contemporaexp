@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-scroll";
+import { NavLink } from "react-bootstrap";
 
 function ColorSchemesExample() {
   return (
@@ -21,14 +22,16 @@ function ColorSchemesExample() {
               alt="React Bootstrap logo"
             /></Navbar.Brand>
           <Nav className="justify-content-end">
+          <NavLink>
             <Link 
             activeClass="active"
             to="Inicio"
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}>Inicio</Link>
-
+            duration={500}><a>Inicio</a></Link>
+          </NavLink>
+          <NavLink>
             <Link 
             activeClass="active"
             to="Servicios"
@@ -36,7 +39,8 @@ function ColorSchemesExample() {
             smooth={true}
             offset={-70}
             duration={500}>Servicios</Link>
-
+          </NavLink>
+<NavLink>
 <Link 
             activeClass="active"
             to="Nosotros"
@@ -44,8 +48,8 @@ function ColorSchemesExample() {
             smooth={true}
             offset={-70}
             duration={500}>Nosotros</Link>
-
-
+</NavLink>
+<NavLink>
 <Link 
             activeClass="active"
             to="Transparencia"
@@ -53,21 +57,18 @@ function ColorSchemesExample() {
             smooth={true}
             offset={-70}
             duration={500}>Transparencia</Link>
-
-
+</NavLink>
+<NavLink>
 <Link 
             activeClass="active"
             to="Contacto"
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}>Contacto</Link>
-
-
-            
-            
-           
+            duration={500}>Contacto</Link>          
+</NavLink>           
           </Nav>
+
         </Container>
       </Navbar>
    
