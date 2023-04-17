@@ -4,6 +4,7 @@ import logo from '../Images/Logo-exp-contempora-web.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-scroll";
 
 function ColorSchemesExample() {
   return (
@@ -20,11 +21,52 @@ function ColorSchemesExample() {
               alt="React Bootstrap logo"
             /></Navbar.Brand>
           <Nav className="justify-content-end">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#features">Servicios</Nav.Link>
-            <Nav.Link href="#pricing">Nosotros</Nav.Link>
-            <Nav.Link href="#home">Transparencia</Nav.Link>
-            <Nav.Link href="#features">Contacto</Nav.Link>
+            <Link 
+            activeClass="active"
+            to="Inicio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>Inicio</Link>
+
+            <Link 
+            activeClass="active"
+            to="Servicios"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>Servicios</Link>
+
+<Link 
+            activeClass="active"
+            to="Nosotros"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>Nosotros</Link>
+
+
+<Link 
+            activeClass="active"
+            to="Transparencia"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>Transparencia</Link>
+
+
+<Link 
+            activeClass="active"
+            to="Contacto"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>Contacto</Link>
+
+
+            
+            
+           
           </Nav>
         </Container>
       </Navbar>

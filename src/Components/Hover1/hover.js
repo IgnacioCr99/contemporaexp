@@ -5,7 +5,7 @@ import {} from '../Hover1/hover.css'
 export const Hover = () => {
   return (
 
-  <div>
+  <div id="Inicio">
       <source media="(min-width: 0px)" srcSet={Hero1} />
       <img className='image' src={Hero1} alt="Hero1" />
       

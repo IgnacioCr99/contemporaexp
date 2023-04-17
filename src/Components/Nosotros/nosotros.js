@@ -6,7 +6,7 @@ import React from 'react'
 export const Nosotros = () => {
   return (
     
-    <div class="container text-center">  
+    <div id='Nosotros' class="container text-center">  
   
       
        {data.map((item) => (
