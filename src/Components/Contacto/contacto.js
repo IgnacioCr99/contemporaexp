@@ -3,7 +3,7 @@ import React from 'react'
 export const Contacto = () => {
   return (
     
-  <div class="row">
+  <div id='Contacto' class="row">
   <div><img src="http://10.10.10.16:4087/wp-content/uploads/2020/11/Logo-exp-contempora-web01.png" class="img-fluid"></img></div>    
   <div class="col-md-8"><div>
     <p className='p'>Av. Victor A Belaunde 147

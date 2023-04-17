@@ -6,7 +6,7 @@ import {} from '../NuestroSocio/nuestrosocio.css';
 export default function NuestroSocio() {
   return (
     <>
-       
+       <div id='Transparencia'>
       <MDBRow className='mb-3'>
         <MDBCol md='8'>
           <img alt='img' src={logo} />
@@ -53,6 +53,7 @@ export default function NuestroSocio() {
           <p className='p'>En pólizas emitidas.</p>
         </MDBCol>
       </MDBRow>
+      </div>
     </>
   );
 }
