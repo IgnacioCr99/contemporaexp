@@ -19,10 +19,10 @@ export default function Confirming() {
   
     return (
       <Container>
-        <div id='Servicios'>
+      
+        <div id='Servicios'></div>
 
-</div>
-     <img className='img w-50 p-3' src={Hero2}/>
+      <img className='img w-50 p-3' src={Hero2}/>
 
   <Accordion defaultActiveKey={['0']} alwaysOpen>
       <Accordion.Item eventKey="0">
