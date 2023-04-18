@@ -24,12 +24,13 @@ function ColorSchemesExample() {
           <Nav className="justify-content-end">
           <NavLink>
             <Link 
+            
             activeClass="active"
             to="Inicio"
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}><a>Inicio</a></Link>
+            duration={500}>Inicio</Link>
           </NavLink>
           <NavLink>
             <Link 

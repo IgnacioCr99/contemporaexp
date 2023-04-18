@@ -14,6 +14,9 @@
    padding-left: 0%;
    align-items: center;
 }
+.Link:hover{
+    color: #80ad3e;
+}
 #navbar {
     display: flex;
     align-items: center;
