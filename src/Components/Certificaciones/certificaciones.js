@@ -11,7 +11,7 @@ export const Certificaciones = () => {
     <Row>
       <Col md={4}>
     <h2 className='h1'>Cavali</h2>
-    <img src= {certificado1}></img>
+    <img className='img' src= {certificado1}></img>
       </Col>
       <Col md={8}>
     <h2 className='h1'>Superintendencia de Banca, Seguros y AFP</h2>
