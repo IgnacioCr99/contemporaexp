@@ -15,6 +15,9 @@ export const Nosotros = () => {
         <div className="card-body">
           <h5 className="card-title">{item.nombre}</h5>
           <p className="card-text">{item.cargo}</p>    
+        <div class="overlay">
+          <div class="text">{item.descripcion}</div>
+        </div>
         </div>
       </div>
     ))}
