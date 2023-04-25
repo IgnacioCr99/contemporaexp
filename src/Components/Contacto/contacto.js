@@ -1,5 +1,10 @@
 import React from 'react'
-
+import icono1 from '../Images/ico-teelfon.png'
+import icono2 from '../Images/ico-wassap-50x50.png'
+import icono3 from '../Images/icno-mail-1.png'
+import iconoface from '../Images/icono-face.png'
+import iconoinsta from '../Images/icono-insta.png'
+import iconolink from '../Images/icono-linkedln.png'
 export const Contacto = () => {
   return (
     
@@ -11,10 +16,10 @@ Vía principal 155, Torre Real 3, of 1102,
 San Isidro
     </p>
     </div>
-    <p><i class="fas fa-phone fa-3x"></i> 01 – 227 8400</p>
-    <p><i class="fab fa-whatsapp fa-3x"></i> 989 271 924</p>
-    <p><i class="far fa-envelope fa-3x"></i> contacto@expcontempora.com  </p>
-    <i class="fab fa-facebook fa-3x"></i><i class="fab fa-instagram-square fa-3x"></i><i class="fab fa-linkedin fa-3x"></i>
+    <p><img src={icono1}></img> 01 – 227 8400</p>
+    <p><img src={icono2}></img> 989 271 924</p>
+    <p><img src={icono3}></img> contacto@expcontempora.com  </p>
+    <img src={iconoface}></img><img src={iconoinsta}></img><img src={iconolink}></img>
     </div>
   <div class="col-md-4">
 
@@ -35,7 +40,6 @@ San Isidro
   <label class="form-label" for="form7Example2">Tu mensaje</label>
 </div>
 </div>
-
 </div>
   )
 
